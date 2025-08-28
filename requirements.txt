@@ -1,0 +1,6 @@
+torch
+sentence-transformers
+torchvision
+fastapi
+uvicorn
+pydantic
