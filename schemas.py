@@ -11,6 +11,7 @@ class AssociationResult(BaseModel):
     # product_features: List[Feature]
     association_number: str
     association_features: List[Feature]
+    score: float
 
 class PredictionResult(BaseModel):
     product_number: str
